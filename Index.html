@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love Janet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>I love Janet</h1>
+        <p class="time"></p>
+        <p class="quote"></p>
+        <button onclick="showModal()" class="letter-button">Read My Letter</button>
+        <h2>Photo Gallery</h2>
+        <div class="carousel">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <div class="carousel-images">
+                <img src="janet1.jpg" alt="Photo 1">
+                <img src="janet2.jpg" alt="Photo 1">
+                <img src="janet3.jpg" alt="Photo 1">
+                <img src="janet4.jpg" alt="Photo 1">
+            </div>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+        <h2>Love Journal</h2>
+        <div class="journal"></div>
+    </div>
+
+    <div id="letterModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p class="letter">i dont really know how to start writing this post because i suck at writing but like i wanna try so like um i really really really really really really love my girlfriend. shes like one of the best person ive ever met. Not only shes literally an epitome of an angel, shes also as kind as an angel. its crazy how someone as cute, pretty, beautiful, adorable, charming exists because like i dont think theres a person as wonderful as her. since she came into my life ive only felt happiness and happiness only. she always cheers me up whenever im feeling down or doubtful of myself. pretty sure people would be jealous of me to have such a wonderful girlfriend. She really deserves the world. i dont really know how her life has been but im sure that as long as im still breathing in this world, she will be loved by me. i love her more than anything in this world because of many reason but i dont think if i elaborate the reasons it would reach way past the limit so ill just tell u f2f so just u wait. eugh, why do u have to be so lovable. i miss u everytime i cant see u its making me insane at this point. cause like my dream goal is to live my life with u until my old age or something like that. i dont want anybody but u for the rest of my life since u are the love of my life. i dont think i will love anyone more than you. Even an angel is like jealous of you since how fuckin angelic u are. Even when the first time i met u, u look really nervous but somehow u still look and act very very cute. and then went we go to our first date, ure really really dress very cute i instantly want to pass out when i see you for the first time. ill add more when i have the brain to write more but the most important thing is i love you</p>
+        </div>
+    </div>
+
+    <div class="hearts"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
